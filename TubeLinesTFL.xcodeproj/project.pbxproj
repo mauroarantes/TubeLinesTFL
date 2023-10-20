@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		06C283E42AE2B64A006F5422 /* TubeLinesTFLApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C283E32AE2B64A006F5422 /* TubeLinesTFLApp.swift */; };
-		06C283E62AE2B64A006F5422 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C283E52AE2B64A006F5422 /* ContentView.swift */; };
 		06C283E82AE2B64B006F5422 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06C283E72AE2B64B006F5422 /* Assets.xcassets */; };
 		06C283EB2AE2B64B006F5422 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06C283EA2AE2B64B006F5422 /* Preview Assets.xcassets */; };
 		06C283F52AE2B64B006F5422 /* TubeLinesTFLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C283F42AE2B64B006F5422 /* TubeLinesTFLTests.swift */; };
 		06C283FF2AE2B64B006F5422 /* TubeLinesTFLUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C283FE2AE2B64B006F5422 /* TubeLinesTFLUITests.swift */; };
 		06C284012AE2B64B006F5422 /* TubeLinesTFLUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C284002AE2B64B006F5422 /* TubeLinesTFLUITestsLaunchTests.swift */; };
+		06C2840F2AE2BF9F006F5422 /* TubeLineModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C2840E2AE2BF9E006F5422 /* TubeLineModel.swift */; };
+		06C284112AE2C015006F5422 /* HomeScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C284102AE2C015006F5422 /* HomeScreenViewModel.swift */; };
+		06C284132AE2C0D0006F5422 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C284122AE2C0D0006F5422 /* HomeScreen.swift */; };
+		06C284192AE2E681006F5422 /* Credentials.plist in Resources */ = {isa = PBXBuildFile; fileRef = 06C284182AE2E681006F5422 /* Credentials.plist */; };
+		06C2841B2AE2E6C9006F5422 /* APIendpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C2841A2AE2E6C9006F5422 /* APIendpoints.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +40,6 @@
 /* Begin PBXFileReference section */
 		06C283E02AE2B64A006F5422 /* TubeLinesTFL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TubeLinesTFL.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06C283E32AE2B64A006F5422 /* TubeLinesTFLApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TubeLinesTFLApp.swift; sourceTree = "<group>"; };
-		06C283E52AE2B64A006F5422 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		06C283E72AE2B64B006F5422 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		06C283EA2AE2B64B006F5422 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		06C283F02AE2B64B006F5422 /* TubeLinesTFLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TubeLinesTFLTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +47,11 @@
 		06C283FA2AE2B64B006F5422 /* TubeLinesTFLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TubeLinesTFLUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		06C283FE2AE2B64B006F5422 /* TubeLinesTFLUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TubeLinesTFLUITests.swift; sourceTree = "<group>"; };
 		06C284002AE2B64B006F5422 /* TubeLinesTFLUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TubeLinesTFLUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		06C2840E2AE2BF9E006F5422 /* TubeLineModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TubeLineModel.swift; sourceTree = "<group>"; };
+		06C284102AE2C015006F5422 /* HomeScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewModel.swift; sourceTree = "<group>"; };
+		06C284122AE2C0D0006F5422 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		06C284182AE2E681006F5422 /* Credentials.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Credentials.plist; sourceTree = "<group>"; };
+		06C2841A2AE2E6C9006F5422 /* APIendpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIendpoints.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +102,11 @@
 		06C283E22AE2B64A006F5422 /* TubeLinesTFL */ = {
 			isa = PBXGroup;
 			children = (
+				06C284172AE2E65C006F5422 /* Constants */,
+				06C284162AE2DF87006F5422 /* View */,
+				06C284152AE2DF81006F5422 /* ViewModel */,
+				06C284142AE2DF78006F5422 /* Model */,
 				06C283E32AE2B64A006F5422 /* TubeLinesTFLApp.swift */,
-				06C283E52AE2B64A006F5422 /* ContentView.swift */,
 				06C283E72AE2B64B006F5422 /* Assets.xcassets */,
 				06C283E92AE2B64B006F5422 /* Preview Content */,
 			);
@@ -125,6 +136,39 @@
 				06C284002AE2B64B006F5422 /* TubeLinesTFLUITestsLaunchTests.swift */,
 			);
 			path = TubeLinesTFLUITests;
+			sourceTree = "<group>";
+		};
+		06C284142AE2DF78006F5422 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				06C2840E2AE2BF9E006F5422 /* TubeLineModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		06C284152AE2DF81006F5422 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				06C284102AE2C015006F5422 /* HomeScreenViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		06C284162AE2DF87006F5422 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				06C284122AE2C0D0006F5422 /* HomeScreen.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		06C284172AE2E65C006F5422 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				06C284182AE2E681006F5422 /* Credentials.plist */,
+				06C2841A2AE2E6C9006F5422 /* APIendpoints.swift */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +275,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06C284192AE2E681006F5422 /* Credentials.plist in Resources */,
 				06C283EB2AE2B64B006F5422 /* Preview Assets.xcassets in Resources */,
 				06C283E82AE2B64B006F5422 /* Assets.xcassets in Resources */,
 			);
@@ -257,7 +302,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06C283E62AE2B64A006F5422 /* ContentView.swift in Sources */,
+				06C2840F2AE2BF9F006F5422 /* TubeLineModel.swift in Sources */,
+				06C284132AE2C0D0006F5422 /* HomeScreen.swift in Sources */,
+				06C2841B2AE2E6C9006F5422 /* APIendpoints.swift in Sources */,
+				06C284112AE2C015006F5422 /* HomeScreenViewModel.swift in Sources */,
 				06C283E42AE2B64A006F5422 /* TubeLinesTFLApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
