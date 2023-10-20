@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06C283E42AE2B64A006F5422 /* TubeLinesTFLApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C283E32AE2B64A006F5422 /* TubeLinesTFLApp.swift */; };
+		06C283E62AE2B64A006F5422 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C283E52AE2B64A006F5422 /* ContentView.swift */; };
+		06C283E82AE2B64B006F5422 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06C283E72AE2B64B006F5422 /* Assets.xcassets */; };
+		06C283EB2AE2B64B006F5422 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06C283EA2AE2B64B006F5422 /* Preview Assets.xcassets */; };
+		06C283F52AE2B64B006F5422 /* TubeLinesTFLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C283F42AE2B64B006F5422 /* TubeLinesTFLTests.swift */; };
+		06C283FF2AE2B64B006F5422 /* TubeLinesTFLUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C283FE2AE2B64B006F5422 /* TubeLinesTFLUITests.swift */; };
+		06C284012AE2B64B006F5422 /* TubeLinesTFLUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C284002AE2B64B006F5422 /* TubeLinesTFLUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		06C283F12AE2B64B006F5422 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06C283D82AE2B64A006F5422 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06C283DF2AE2B64A006F5422;
+			remoteInfo = TubeLinesTFL;
+		};
+		06C283FB2AE2B64B006F5422 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06C283D82AE2B64A006F5422 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06C283DF2AE2B64A006F5422;
+			remoteInfo = TubeLinesTFL;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06C283E02AE2B64A006F5422 /* TubeLinesTFL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TubeLinesTFL.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		06C283E32AE2B64A006F5422 /* TubeLinesTFLApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TubeLinesTFLApp.swift; sourceTree = "<group>"; };
+		06C283E52AE2B64A006F5422 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		06C283E72AE2B64B006F5422 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		06C283EA2AE2B64B006F5422 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		06C283F02AE2B64B006F5422 /* TubeLinesTFLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TubeLinesTFLTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		06C283F42AE2B64B006F5422 /* TubeLinesTFLTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TubeLinesTFLTests.swift; sourceTree = "<group>"; };
+		06C283FA2AE2B64B006F5422 /* TubeLinesTFLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TubeLinesTFLUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		06C283FE2AE2B64B006F5422 /* TubeLinesTFLUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TubeLinesTFLUITests.swift; sourceTree = "<group>"; };
+		06C284002AE2B64B006F5422 /* TubeLinesTFLUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TubeLinesTFLUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06C283DD2AE2B64A006F5422 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06C283ED2AE2B64B006F5422 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06C283F72AE2B64B006F5422 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06C283D72AE2B64A006F5422 = {
+			isa = PBXGroup;
+			children = (
+				06C283E22AE2B64A006F5422 /* TubeLinesTFL */,
+				06C283F32AE2B64B006F5422 /* TubeLinesTFLTests */,
+				06C283FD2AE2B64B006F5422 /* TubeLinesTFLUITests */,
+				06C283E12AE2B64A006F5422 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		06C283E12AE2B64A006F5422 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				06C283E02AE2B64A006F5422 /* TubeLinesTFL.app */,
+				06C283F02AE2B64B006F5422 /* TubeLinesTFLTests.xctest */,
+				06C283FA2AE2B64B006F5422 /* TubeLinesTFLUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		06C283E22AE2B64A006F5422 /* TubeLinesTFL */ = {
+			isa = PBXGroup;
+			children = (
+				06C283E32AE2B64A006F5422 /* TubeLinesTFLApp.swift */,
+				06C283E52AE2B64A006F5422 /* ContentView.swift */,
+				06C283E72AE2B64B006F5422 /* Assets.xcassets */,
+				06C283E92AE2B64B006F5422 /* Preview Content */,
+			);
+			path = TubeLinesTFL;
+			sourceTree = "<group>";
+		};
+		06C283E92AE2B64B006F5422 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				06C283EA2AE2B64B006F5422 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		06C283F32AE2B64B006F5422 /* TubeLinesTFLTests */ = {
+			isa = PBXGroup;
+			children = (
+				06C283F42AE2B64B006F5422 /* TubeLinesTFLTests.swift */,
+			);
+			path = TubeLinesTFLTests;
+			sourceTree = "<group>";
+		};
+		06C283FD2AE2B64B006F5422 /* TubeLinesTFLUITests */ = {
+			isa = PBXGroup;
+			children = (
+				06C283FE2AE2B64B006F5422 /* TubeLinesTFLUITests.swift */,
+				06C284002AE2B64B006F5422 /* TubeLinesTFLUITestsLaunchTests.swift */,
+			);
+			path = TubeLinesTFLUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		06C283DF2AE2B64A006F5422 /* TubeLinesTFL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06C284042AE2B64B006F5422 /* Build configuration list for PBXNativeTarget "TubeLinesTFL" */;
+			buildPhases = (
+				06C283DC2AE2B64A006F5422 /* Sources */,
+				06C283DD2AE2B64A006F5422 /* Frameworks */,
+				06C283DE2AE2B64A006F5422 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TubeLinesTFL;
+			productName = TubeLinesTFL;
+			productReference = 06C283E02AE2B64A006F5422 /* TubeLinesTFL.app */;
+			productType = "com.apple.product-type.application";
+		};
+		06C283EF2AE2B64B006F5422 /* TubeLinesTFLTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06C284072AE2B64B006F5422 /* Build configuration list for PBXNativeTarget "TubeLinesTFLTests" */;
+			buildPhases = (
+				06C283EC2AE2B64B006F5422 /* Sources */,
+				06C283ED2AE2B64B006F5422 /* Frameworks */,
+				06C283EE2AE2B64B006F5422 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				06C283F22AE2B64B006F5422 /* PBXTargetDependency */,
+			);
+			name = TubeLinesTFLTests;
+			productName = TubeLinesTFLTests;
+			productReference = 06C283F02AE2B64B006F5422 /* TubeLinesTFLTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		06C283F92AE2B64B006F5422 /* TubeLinesTFLUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06C2840A2AE2B64B006F5422 /* Build configuration list for PBXNativeTarget "TubeLinesTFLUITests" */;
+			buildPhases = (
+				06C283F62AE2B64B006F5422 /* Sources */,
+				06C283F72AE2B64B006F5422 /* Frameworks */,
+				06C283F82AE2B64B006F5422 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				06C283FC2AE2B64B006F5422 /* PBXTargetDependency */,
+			);
+			name = TubeLinesTFLUITests;
+			productName = TubeLinesTFLUITests;
+			productReference = 06C283FA2AE2B64B006F5422 /* TubeLinesTFLUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		06C283D82AE2B64A006F5422 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					06C283DF2AE2B64A006F5422 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					06C283EF2AE2B64B006F5422 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 06C283DF2AE2B64A006F5422;
+					};
+					06C283F92AE2B64B006F5422 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 06C283DF2AE2B64A006F5422;
+					};
+				};
+			};
+			buildConfigurationList = 06C283DB2AE2B64A006F5422 /* Build configuration list for PBXProject "TubeLinesTFL" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 06C283D72AE2B64A006F5422;
+			productRefGroup = 06C283E12AE2B64A006F5422 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				06C283DF2AE2B64A006F5422 /* TubeLinesTFL */,
+				06C283EF2AE2B64B006F5422 /* TubeLinesTFLTests */,
+				06C283F92AE2B64B006F5422 /* TubeLinesTFLUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06C283DE2AE2B64A006F5422 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06C283EB2AE2B64B006F5422 /* Preview Assets.xcassets in Resources */,
+				06C283E82AE2B64B006F5422 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06C283EE2AE2B64B006F5422 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06C283F82AE2B64B006F5422 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06C283DC2AE2B64A006F5422 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06C283E62AE2B64A006F5422 /* ContentView.swift in Sources */,
+				06C283E42AE2B64A006F5422 /* TubeLinesTFLApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06C283EC2AE2B64B006F5422 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06C283F52AE2B64B006F5422 /* TubeLinesTFLTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06C283F62AE2B64B006F5422 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06C283FF2AE2B64B006F5422 /* TubeLinesTFLUITests.swift in Sources */,
+				06C284012AE2B64B006F5422 /* TubeLinesTFLUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		06C283F22AE2B64B006F5422 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 06C283DF2AE2B64A006F5422 /* TubeLinesTFL */;
+			targetProxy = 06C283F12AE2B64B006F5422 /* PBXContainerItemProxy */;
+		};
+		06C283FC2AE2B64B006F5422 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 06C283DF2AE2B64A006F5422 /* TubeLinesTFL */;
+			targetProxy = 06C283FB2AE2B64B006F5422 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		06C284022AE2B64B006F5422 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		06C284032AE2B64B006F5422 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		06C284052AE2B64B006F5422 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TubeLinesTFL/Preview Content\"";
+				DEVELOPMENT_TEAM = GZFLA6HU23;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ITC.TubeLinesTFL;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		06C284062AE2B64B006F5422 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TubeLinesTFL/Preview Content\"";
+				DEVELOPMENT_TEAM = GZFLA6HU23;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ITC.TubeLinesTFL;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		06C284082AE2B64B006F5422 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GZFLA6HU23;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ITC.TubeLinesTFLTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TubeLinesTFL.app/TubeLinesTFL";
+			};
+			name = Debug;
+		};
+		06C284092AE2B64B006F5422 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GZFLA6HU23;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ITC.TubeLinesTFLTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TubeLinesTFL.app/TubeLinesTFL";
+			};
+			name = Release;
+		};
+		06C2840B2AE2B64B006F5422 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GZFLA6HU23;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ITC.TubeLinesTFLUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TubeLinesTFL;
+			};
+			name = Debug;
+		};
+		06C2840C2AE2B64B006F5422 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GZFLA6HU23;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ITC.TubeLinesTFLUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TubeLinesTFL;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06C283DB2AE2B64A006F5422 /* Build configuration list for PBXProject "TubeLinesTFL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06C284022AE2B64B006F5422 /* Debug */,
+				06C284032AE2B64B006F5422 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06C284042AE2B64B006F5422 /* Build configuration list for PBXNativeTarget "TubeLinesTFL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06C284052AE2B64B006F5422 /* Debug */,
+				06C284062AE2B64B006F5422 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06C284072AE2B64B006F5422 /* Build configuration list for PBXNativeTarget "TubeLinesTFLTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06C284082AE2B64B006F5422 /* Debug */,
+				06C284092AE2B64B006F5422 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06C2840A2AE2B64B006F5422 /* Build configuration list for PBXNativeTarget "TubeLinesTFLUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06C2840B2AE2B64B006F5422 /* Debug */,
+				06C2840C2AE2B64B006F5422 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 06C283D82AE2B64A006F5422 /* Project object */;
+}
