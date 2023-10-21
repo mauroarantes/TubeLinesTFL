@@ -30,11 +30,6 @@ struct TubeLineModel: Decodable, Identifiable, Hashable {
         case type = "$type"
         case id, name, modeName, disruptions, created, modified, lineStatuses, routeSections, serviceTypes, crowding
     }
-    
-//    enum CodingKeys: String, CodingKey {
-//        case type = "$type"
-//        case id, name, lineStatuses
-//    }
 }
 
 enum ModifiedEnum: String, Decodable {
@@ -69,12 +64,6 @@ enum LineStatusCreated: String, Decodable {
     case the00010101T000000 = "0001-01-01T00:00:00"
 }
 
-//enum StatusSeverityDescription: String, Codable {
-//    case goodService = "Good Service"
-//    case severeDelays = "Severe Delays"
-//    case minorDelays = "Minor Delays"
-//}
-
 enum ModeName: String, Decodable {
     case tube = "tube"
 }
@@ -95,8 +84,6 @@ enum Name: String, Decodable {
     case night = "Night"
     case regular = "Regular"
 }
-
-//typealias ProductModel = [TubeLineModel]
 
 // MARK: - Encode/decode helpers
 

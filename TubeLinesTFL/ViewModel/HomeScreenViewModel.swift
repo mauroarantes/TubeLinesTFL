@@ -19,7 +19,7 @@ class HomeScreenViewModel: ObservableObject {
     
     func getProducts() {
         
-        guard let url = URL(string: "https://api.tfl.gov.uk/Line/Mode/Tube/Status") else { return }
+        guard let url = URL(string: APIendpoints.getTubeLineEndpoint()) else { return }
         
         URLSession.shared.dataTaskPublisher(for: url)
             .subscribe(on: DispatchQueue.global(qos: .background))

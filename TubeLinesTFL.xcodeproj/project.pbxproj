@@ -18,6 +18,8 @@
 		06C284132AE2C0D0006F5422 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C284122AE2C0D0006F5422 /* HomeScreen.swift */; };
 		06C284192AE2E681006F5422 /* Credentials.plist in Resources */ = {isa = PBXBuildFile; fileRef = 06C284182AE2E681006F5422 /* Credentials.plist */; };
 		06C2841B2AE2E6C9006F5422 /* APIendpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C2841A2AE2E6C9006F5422 /* APIendpoints.swift */; };
+		06C2841E2AE3D459006F5422 /* View+getRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C2841D2AE3D459006F5422 /* View+getRect.swift */; };
+		06C284202AE3D4C1006F5422 /* Color+getColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C2841F2AE3D4C1006F5422 /* Color+getColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +54,8 @@
 		06C284122AE2C0D0006F5422 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		06C284182AE2E681006F5422 /* Credentials.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Credentials.plist; sourceTree = "<group>"; };
 		06C2841A2AE2E6C9006F5422 /* APIendpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIendpoints.swift; sourceTree = "<group>"; };
+		06C2841D2AE3D459006F5422 /* View+getRect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+getRect.swift"; sourceTree = "<group>"; };
+		06C2841F2AE3D4C1006F5422 /* Color+getColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+getColor.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,7 @@
 		06C283E22AE2B64A006F5422 /* TubeLinesTFL */ = {
 			isa = PBXGroup;
 			children = (
+				06C2841C2AE3D388006F5422 /* Extensions */,
 				06C284172AE2E65C006F5422 /* Constants */,
 				06C284162AE2DF87006F5422 /* View */,
 				06C284152AE2DF81006F5422 /* ViewModel */,
@@ -169,6 +174,15 @@
 				06C2841A2AE2E6C9006F5422 /* APIendpoints.swift */,
 			);
 			path = Constants;
+			sourceTree = "<group>";
+		};
+		06C2841C2AE3D388006F5422 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				06C2841D2AE3D459006F5422 /* View+getRect.swift */,
+				06C2841F2AE3D4C1006F5422 /* Color+getColor.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -303,9 +317,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				06C2840F2AE2BF9F006F5422 /* TubeLineModel.swift in Sources */,
+				06C2841E2AE3D459006F5422 /* View+getRect.swift in Sources */,
 				06C284132AE2C0D0006F5422 /* HomeScreen.swift in Sources */,
 				06C2841B2AE2E6C9006F5422 /* APIendpoints.swift in Sources */,
 				06C284112AE2C015006F5422 /* HomeScreenViewModel.swift in Sources */,
+				06C284202AE3D4C1006F5422 /* Color+getColor.swift in Sources */,
 				06C283E42AE2B64A006F5422 /* TubeLinesTFLApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
