@@ -10,27 +10,21 @@ import Combine
 
 class HomeScreenViewModel: ObservableObject {
     
+    var apiService: APIServiceProtocol
     var cancellables = Set<AnyCancellable>()
     @Published var tubeLines: [TubeLineModel] = []
     
-    init() {
-        getProducts()
+    init(apiService: APIServiceProtocol) {
+        self.apiService = apiService
+        apiCall()
     }
     
-    func getProducts() {
+    func apiCall() {
         
         guard let url = URL(string: APIendpoints.getTubeLineEndpoint()) else { return }
         
-        URLSession.shared.dataTaskPublisher(for: url)
+        apiService.fetchArray(url: url)
             .subscribe(on: DispatchQueue.global(qos: .background))
-            .receive(on: DispatchQueue.main)
-            .tryMap { (data, response) -> Data in
-                guard let response = response as? HTTPURLResponse, response.statusCode >= 200 && response.statusCode < 300 else {
-                    throw URLError(.badServerResponse)
-                }
-                return data
-            }
-            .decode(type: [TubeLineModel].self, decoder: JSONDecoder())
             .sink { completion in
                 print("COMPLETION: \(completion)")
             } receiveValue: { [weak self] tubeLinesArray in

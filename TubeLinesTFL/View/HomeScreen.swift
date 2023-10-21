@@ -9,7 +9,7 @@ import SwiftUI
 
 struct HomeScreen: View {
     
-    @StateObject var viewModel = HomeScreenViewModel()
+    @StateObject var viewModel = HomeScreenViewModel(apiService: APIService())
     
     var body: some View {
         NavigationView {

@@ -6,31 +6,65 @@
 //
 
 import XCTest
+import Combine
 @testable import TubeLinesTFL
 
 class TubeLinesTFLTests: XCTestCase {
-
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+    
+    var sut: HomeScreenViewModel?
+    
+    override func setUp() {
+        super.setUp()
+    }
+    
+    override func tearDown() {
+        super.tearDown()
+    }
+    
+    func testApiCall_isSuccess() {
+        //given
+        sut = HomeScreenViewModel(apiService: MockAPIService(fileName: "MockResponse"))
+        //when
+        sut?.apiCall()
+        //then
+        XCTAssertEqual(sut?.tubeLines.count, 11)
+    }
+    
+    func testApiCall_isFailure() {
+        //given
+        sut = HomeScreenViewModel(apiService: MockAPIService(fileName: "Error"))
+        //when
+        sut?.apiCall()
+        //then
+        XCTAssertEqual(sut?.tubeLines.count, 0)
     }
 
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-    }
+}
 
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        // Any test you write for XCTest can be annotated as throws and async.
-        // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
-        // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
+class MockAPIService: APIServiceProtocol {
+    
+    let fileName: String
+    
+    init(fileName: String) {
+        self.fileName = fileName
     }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
+    
+    func fetchArray(url: URL) -> AnyPublisher<[TubeLineModel], Error> {
+        if let path = Bundle.main.url(forResource: fileName, withExtension: "json") {
+            do {
+                let data = try Data(contentsOf: path)
+                let decoder = JSONDecoder()
+                let jsonData = try decoder.decode([TubeLineModel].self, from: data)
+                return Just(jsonData)
+                    .setFailureType(to: Error.self)
+                    .eraseToAnyPublisher()
+            } catch {
+                print("error:\(error)")
+            }
         }
+        let result: [TubeLineModel] = []
+        return Just(result)
+            .setFailureType(to: Error.self)
+            .eraseToAnyPublisher()
     }
-
 }
