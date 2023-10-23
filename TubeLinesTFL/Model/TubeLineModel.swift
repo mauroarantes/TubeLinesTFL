@@ -18,9 +18,9 @@ struct TubeLineModel: Decodable, Identifiable, Hashable {
     }
     
     let type, id, name: String
-    let modeName: ModeName
+    let modeName: String
     let disruptions: [JSONAny]
-    let created, modified: ModifiedEnum
+    let created, modified: String
     let lineStatuses: [LineStatus]
     let routeSections: [JSONAny]
     let serviceTypes: [ServiceType]
@@ -30,11 +30,6 @@ struct TubeLineModel: Decodable, Identifiable, Hashable {
         case type = "$type"
         case id, name, modeName, disruptions, created, modified, lineStatuses, routeSections, serviceTypes, crowding
     }
-}
-
-enum ModifiedEnum: String, Decodable {
-    case the20231018T155614407Z = "2023-10-18T15:56:14.407Z"
-    case the20231018T15561442Z = "2023-10-18T15:56:14.42Z"
 }
 
 // MARK: - Crowding
@@ -51,21 +46,13 @@ struct LineStatus: Decodable {
     let type: String
     let id, statusSeverity: Int
     let statusSeverityDescription: String
-    let created: LineStatusCreated
+    let created: String
     let validityPeriods: [JSONAny]
 
     enum CodingKeys: String, CodingKey {
         case type = "$type"
         case id, statusSeverity, statusSeverityDescription, created, validityPeriods
     }
-}
-
-enum LineStatusCreated: String, Decodable {
-    case the00010101T000000 = "0001-01-01T00:00:00"
-}
-
-enum ModeName: String, Decodable {
-    case tube = "tube"
 }
 
 // MARK: - ServiceType

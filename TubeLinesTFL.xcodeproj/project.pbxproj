@@ -26,6 +26,7 @@
 		06C284282AE667AF006F5422 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 06C284272AE667AF006F5422 /* README.md */; };
 		06C2842A2AE66A95006F5422 /* MockAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C284292AE66A95006F5422 /* MockAPIService.swift */; };
 		06C2842C2AE66E2D006F5422 /* TubeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C2842B2AE66E2D006F5422 /* TubeCell.swift */; };
+		06C284302AE688A2006F5422 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C2842F2AE688A2006F5422 /* NetworkError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		06C284272AE667AF006F5422 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		06C284292AE66A95006F5422 /* MockAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAPIService.swift; sourceTree = "<group>"; };
 		06C2842B2AE66E2D006F5422 /* TubeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TubeCell.swift; sourceTree = "<group>"; };
+		06C2842F2AE688A2006F5422 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,13 +120,13 @@
 			isa = PBXGroup;
 			children = (
 				06C284142AE2DF78006F5422 /* Model */,
-				06C284272AE667AF006F5422 /* README.md */,
 				06C284162AE2DF87006F5422 /* View */,
 				06C284152AE2DF81006F5422 /* ViewModel */,
 				06C284242AE42A0C006F5422 /* Services */,
 				06C2841C2AE3D388006F5422 /* Extensions */,
 				06C284172AE2E65C006F5422 /* Constants */,
 				06C283E32AE2B64A006F5422 /* TubeLinesTFLApp.swift */,
+				06C284272AE667AF006F5422 /* README.md */,
 				06C283E72AE2B64B006F5422 /* Assets.xcassets */,
 				06C283E92AE2B64B006F5422 /* Preview Content */,
 			);
@@ -205,6 +207,7 @@
 			isa = PBXGroup;
 			children = (
 				06C284252AE42A9C006F5422 /* APIService.swift */,
+				06C2842F2AE688A2006F5422 /* NetworkError.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -352,6 +355,7 @@
 				06C284202AE3D4C1006F5422 /* Color+getColor.swift in Sources */,
 				06C284262AE42A9C006F5422 /* APIService.swift in Sources */,
 				06C283E42AE2B64A006F5422 /* TubeLinesTFLApp.swift in Sources */,
+				06C284302AE688A2006F5422 /* NetworkError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

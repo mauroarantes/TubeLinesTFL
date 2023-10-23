@@ -19,6 +19,7 @@ class TubeLinesTFLTests: XCTestCase {
     
     override func tearDown() {
         super.tearDown()
+        sut = nil
     }
     
     func testApiCall_isSuccess() {
@@ -34,12 +35,16 @@ class TubeLinesTFLTests: XCTestCase {
     }
     
     func testApiCall_isFailure() {
-        //given
+        let expetation = XCTestExpectation(description: "Fetching Tube Lines list")
+        let waitDuration = 3.0
         sut = HomeScreenViewModel(apiService: MockAPIService(fileName: "Error"))
-        //when
         sut?.apiCall()
-        //then
-        XCTAssertEqual(sut?.tubeLines.count, 0)
+        DispatchQueue.main.asyncAfter(deadline: .now() + waitDuration){
+            XCTAssertEqual(self.sut?.tubeLines.count, 0)
+            XCTAssertEqual(self.sut?.customError, NetworkError.dataNotFound)
+            expetation.fulfill()
+        }
+        wait(for: [expetation], timeout: waitDuration)
     }
 
 }

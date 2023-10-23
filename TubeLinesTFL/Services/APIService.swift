@@ -21,6 +21,18 @@ class APIService: APIServiceProtocol {
                 }
                 return data
             }
+            .mapError{ error -> NetworkError in
+                switch error{
+                case is URLError:
+                    return NetworkError.invalidURL
+                case NetworkError.dataNotFound:
+                    return NetworkError.dataNotFound
+                case is DecodingError:
+                    return NetworkError.parsingError
+                default:
+                    return NetworkError.dataNotFound
+                }
+            }
             .decode(type: [TubeLineModel].self, decoder: JSONDecoder())
             .receive(on: DispatchQueue.main)
             .eraseToAnyPublisher()

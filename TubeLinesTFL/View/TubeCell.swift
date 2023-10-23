@@ -33,6 +33,6 @@ struct TubeCell: View {
 
 struct TubeCell_Previews: PreviewProvider {
     static var previews: some View {
-        TubeCell(tubeLine: TubeLineModel(type: "", id: "test", name: "", modeName: ModeName.tube, disruptions: [], created: ModifiedEnum.the20231018T155614407Z, modified: ModifiedEnum.the20231018T155614407Z, lineStatuses: [], routeSections: [], serviceTypes: [], crowding: Crowding(type: "")))
+        TubeCell(tubeLine: TubeLineModel(type: "", id: "", name: "Test", modeName: "", disruptions: [], created: "", modified: "", lineStatuses: [], routeSections: [], serviceTypes: [], crowding: Crowding(type: "")))
     }
 }

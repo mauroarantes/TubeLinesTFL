@@ -28,6 +28,8 @@ class MockAPIService: APIServiceProtocol {
                     .eraseToAnyPublisher()
             } catch {
                 print("error:\(error)")
+                return Fail(error: NetworkError.dataNotFound)
+                    .eraseToAnyPublisher()
             }
         }
         return Fail(error: NSError())
