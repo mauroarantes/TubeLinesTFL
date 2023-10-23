@@ -27,7 +27,10 @@ class TubeLinesTFLTests: XCTestCase {
         //when
         sut?.apiCall()
         //then
+        let tubeLineModel = sut?.tubeLines.first
         XCTAssertEqual(sut?.tubeLines.count, 11)
+        XCTAssertEqual(tubeLineModel?.name, "Bakerloo")
+        XCTAssertEqual(tubeLineModel?.lineStatuses.first?.statusSeverityDescription, "Good Service")
     }
     
     func testApiCall_isFailure() {

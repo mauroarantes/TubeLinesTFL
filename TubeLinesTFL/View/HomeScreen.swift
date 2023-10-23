@@ -15,18 +15,7 @@ struct HomeScreen: View {
         NavigationView {
             List {
                 ForEach(viewModel.tubeLines, id:\.self) { tubeLine in
-                    HStack {
-                        Rectangle()
-                            .foregroundColor(Color.getColor(tubeLineName: tubeLine.id))
-                            .frame(width: 10)
-                        Text(tubeLine.id.capitalized)
-                            .font(.headline)
-                        Spacer()
-                        Text(tubeLine.lineStatuses[0].statusSeverityDescription)
-                            .foregroundColor(.gray)
-                    }
-                    .frame(maxWidth: .infinity)
-                    .frame(height: getRect().height/14)
+                    TubeCell(tubeLine: tubeLine)
                 }
             }
             .listStyle(.grouped)

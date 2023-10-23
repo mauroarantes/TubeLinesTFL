@@ -13,6 +13,13 @@ In the structure files contains: Model, View, ViewModel, Services and tests part
 # Installation
 Can be used with Xcode 13.4 and above. Compatible with iPhone and iPad with minimum iOS version 15.0.
 
+# How to use
+1. Download the code from GitHub provided link
+2. Open the project in Xcode 13.4 or above.
+3. Under Constants folder, edit Credentials.plist and add app_id and app_key.
+4. Run it in the Simulator and it should work fine.
+5. In order to run test cases go to Product Menu on Xcode and click in Test.
+
 # Framework
 SwiftUI 
 
