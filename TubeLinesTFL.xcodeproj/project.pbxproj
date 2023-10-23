@@ -23,6 +23,8 @@
 		06C284222AE408B7006F5422 /* MockResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = 06C284212AE408B7006F5422 /* MockResponse.json */; };
 		06C284232AE40BEB006F5422 /* MockResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = 06C284212AE408B7006F5422 /* MockResponse.json */; };
 		06C284262AE42A9C006F5422 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C284252AE42A9C006F5422 /* APIService.swift */; };
+		06C284282AE667AF006F5422 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 06C284272AE667AF006F5422 /* README.md */; };
+		06C2842A2AE66A95006F5422 /* MockAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C284292AE66A95006F5422 /* MockAPIService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +63,8 @@
 		06C2841F2AE3D4C1006F5422 /* Color+getColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+getColor.swift"; sourceTree = "<group>"; };
 		06C284212AE408B7006F5422 /* MockResponse.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = MockResponse.json; sourceTree = "<group>"; };
 		06C284252AE42A9C006F5422 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		06C284272AE667AF006F5422 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		06C284292AE66A95006F5422 /* MockAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAPIService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +115,7 @@
 		06C283E22AE2B64A006F5422 /* TubeLinesTFL */ = {
 			isa = PBXGroup;
 			children = (
+				06C284272AE667AF006F5422 /* README.md */,
 				06C284242AE42A0C006F5422 /* Services */,
 				06C2841C2AE3D388006F5422 /* Extensions */,
 				06C284172AE2E65C006F5422 /* Constants */,
@@ -137,6 +142,7 @@
 			children = (
 				06C283F42AE2B64B006F5422 /* TubeLinesTFLTests.swift */,
 				06C284212AE408B7006F5422 /* MockResponse.json */,
+				06C284292AE66A95006F5422 /* MockAPIService.swift */,
 			);
 			path = TubeLinesTFLTests;
 			sourceTree = "<group>";
@@ -306,6 +312,7 @@
 			files = (
 				06C284232AE40BEB006F5422 /* MockResponse.json in Resources */,
 				06C284192AE2E681006F5422 /* Credentials.plist in Resources */,
+				06C284282AE667AF006F5422 /* README.md in Resources */,
 				06C283EB2AE2B64B006F5422 /* Preview Assets.xcassets in Resources */,
 				06C283E82AE2B64B006F5422 /* Assets.xcassets in Resources */,
 			);
@@ -348,6 +355,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06C2842A2AE66A95006F5422 /* MockAPIService.swift in Sources */,
 				06C283F52AE2B64B006F5422 /* TubeLinesTFLTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -427,7 +435,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -481,7 +489,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

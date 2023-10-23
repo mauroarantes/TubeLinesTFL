@@ -26,7 +26,12 @@ class HomeScreenViewModel: ObservableObject {
         apiService.fetchArray(url: url)
             .subscribe(on: DispatchQueue.global(qos: .background))
             .sink { completion in
-                print("COMPLETION: \(completion)")
+                switch completion{
+                case .failure:
+                    break
+                case .finished:
+                    print("COMPLETION: \(completion)")
+                }
             } receiveValue: { [weak self] tubeLinesArray in
                 self?.tubeLines = tubeLinesArray
             }
